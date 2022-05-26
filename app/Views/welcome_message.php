@@ -8,18 +8,18 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="../../public/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="<?= base_url("plugins/fontawesome-free/css/all.min.css")?>">
   <!-- icheck bootstrap -->
-  <link rel="stylesheet" href="../../public/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <link rel="stylesheet" href="<?= base_url("plugins/icheck-bootstrap/icheck-bootstrap.min.css")?>">
   <!-- Theme style -->
-  <link rel="stylesheet" href="../../public/css/adminlte.min.css">
+  <link rel="stylesheet" href="<?= base_url("css/adminlte.min.css")?>">
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
     <a href="../../index2.html"><b>Admin</b>LTE</a>
   </div>
-  <!-- /.login-logo -->
+  <!-- /.login-logo aqui se guardo un comentario -->
   <div class="card">
     <div class="card-body login-card-body">
       <p class="login-box-msg">Sign in to start your session</p>
@@ -82,10 +82,10 @@
 <!-- /.login-box -->
 
 <!-- jQuery -->
-<script src="../../public/plugins/jquery/jquery.min.js"></script>
+<script src="<?= base_url("plugins/jquery/jquery.min.js")?>"></script>
 <!-- Bootstrap 4 -->
-<script src="../../public/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?= base_url("plugins/bootstrap/js/bootstrap.bundle.min.js")?>"></script>
 <!-- AdminLTE App -->
-<script src="../../public/js/adminlte.min.js"></script>
+<script src="<?= base_url("js/adminlte.min.js")?>"></script>
 </body>
 </html>
